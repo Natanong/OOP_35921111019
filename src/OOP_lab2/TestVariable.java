@@ -19,7 +19,7 @@ public class TestVariable {
 //        String
         String s = "Hello, World";
         System.out.println(s);
-        String name = "I'm SAM";
+        String name = "I'm AI";
         System.out.println(name);
         String msg = s + " " + name;
         System.out.println(msg);
