@@ -1,4 +1,4 @@
-package ooplab7;
+package oop_lab7;
 
 import oop_lab7.Student;
 
