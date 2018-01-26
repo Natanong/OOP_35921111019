@@ -23,8 +23,18 @@ public class StudentApp {
         System.out.println(s2.toString());
 
         Student s3 = new Student();
-        s3 = inputData(s3);
-        System.out.println(s3.toString());
+        //s3 = inputData(s3);
+        //System.out.println(s3.toString());
+
+        System.out.println(s2.getId());
+        s2.setId("004");
+        System.out.println(s2.getId());
+        s2.group = "IS223";
+        System.out.println(s2.group);
+        System.out.println(Student.age);
+        Student.age = 20;
+        s2.age = 30;
+        System.out.println(Student.age);
 
     }//main
 
