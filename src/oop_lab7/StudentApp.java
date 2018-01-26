@@ -1,4 +1,6 @@
-package oop_lab7;
+package ooplab7;
+
+import oop_lab7.Student;
 
 import java.util.Scanner;
 
@@ -12,8 +14,9 @@ public class StudentApp {
         s1.setAddress("11/11 T.Thamyai A.Thungsong");
 
         System.out.println(s1.toString());
+
         Student s2 = new Student("0002",
-                "Girt Saiyai",
+                "Girl Saiyai",
                 "2222222222222",
                 "22/22 T.Thawang A.Muang");
 
@@ -24,7 +27,8 @@ public class StudentApp {
         System.out.println(s3.toString());
 
     }//main
-    private static Student inputData(Student s){
+
+    private static Student inputData(Student s) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert your student info: ");
         System.out.print("Student ID: ");
@@ -38,7 +42,5 @@ public class StudentApp {
         return s;
 
 
-    }
-
-
+    }//inputData
 }//class
